@@ -1,0 +1,34 @@
+# Claude Code local runtime state (machine-specific, may contain secrets)
+.claude/settings.local.json
+.claude/session
+.claude/session.log
+
+# Environment & credentials
+.env
+.env.*
+!.env.example
+.credentials.json
+*.pem
+*.key
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+build/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
